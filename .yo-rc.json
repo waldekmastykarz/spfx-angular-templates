@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "spfx-angular-templates",
+    "libraryId": "3aeaafe1-c7d9-46b3-a785-061ca5c0f519",
+    "framework": "none"
+  }
+}

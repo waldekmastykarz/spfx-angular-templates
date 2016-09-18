@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-angular-templates-client-side-solution",
+    "id": "3aeaafe1-c7d9-46b3-a785-061ca5c0f519",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-angular-templates.spapp"
+  }
+}

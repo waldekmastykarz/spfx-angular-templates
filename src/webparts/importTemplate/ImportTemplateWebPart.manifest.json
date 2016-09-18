@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "1bde0483-bbca-4ad1-82f1-7f75b29caf8e",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "1bde0483-bbca-4ad1-82f1-7f75b29caf8e",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Import template" },
+    "description": { "default": "Illustrates loading template using import" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Import template"
+    }
+  }]
+}

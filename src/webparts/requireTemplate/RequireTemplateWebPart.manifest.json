@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "358feb59-6024-4bdb-8157-53d394f22397",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "358feb59-6024-4bdb-8157-53d394f22397",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Require template" },
+    "description": { "default": "Illustrates loading template using require" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Require template"
+    }
+  }]
+}

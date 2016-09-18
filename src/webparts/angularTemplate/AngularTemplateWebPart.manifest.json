@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "64d90cbf-daf0-451d-8e4a-ea498d9d99b6",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "64d90cbf-daf0-451d-8e4a-ea498d9d99b6",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Angular template" },
+    "description": { "default": "Illustrates loading template from Angular" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Angular template"
+    }
+  }]
+}

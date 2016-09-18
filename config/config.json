@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/inlineTemplate/InlineTemplateWebPart.js",
+      "manifest": "./src/webparts/inlineTemplate/InlineTemplateWebPart.manifest.json",
+      "outputPath": "./dist/inline-template.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/requireTemplate/RequireTemplateWebPart.js",
+      "manifest": "./src/webparts/requireTemplate/RequireTemplateWebPart.manifest.json",
+      "outputPath": "./dist/require-template.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/importTemplate/ImportTemplateWebPart.js",
+      "manifest": "./src/webparts/importTemplate/ImportTemplateWebPart.manifest.json",
+      "outputPath": "./dist/import-template.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/requireUniqueStyles/RequireUniqueStylesWebPart.js",
+      "manifest": "./src/webparts/requireUniqueStyles/RequireUniqueStylesWebPart.manifest.json",
+      "outputPath": "./dist/require-unique-styles.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/angularTemplate/AngularTemplateWebPart.js",
+      "manifest": "./src/webparts/angularTemplate/AngularTemplateWebPart.manifest.json",
+      "outputPath": "./dist/angular-template.bundle.js"
+    }
+  ],
+  "externals": {
+    "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "@microsoft/sp-lodash-subset": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js",
+    "office-ui-fabric-react": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.js",
+    "react": "node_modules/react/dist/react.min.js",
+    "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
+    "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js",
+    "angular": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js",
+      "globalName": "angular"
+    }
+  },
+  "localizedResources": {
+    "inlineTemplateStrings": "webparts/inlineTemplate/loc/{locale}.js",
+    "requireTemplateStrings": "webparts/requireTemplate/loc/{locale}.js",
+    "importTemplateStrings": "webparts/importTemplate/loc/{locale}.js",
+    "requireUniqueStylesStrings": "webparts/requireUniqueStyles/loc/{locale}.js",
+    "angularTemplateStrings": "webparts/angularTemplate/loc/{locale}.js"
+  }
+}
